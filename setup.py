@@ -29,6 +29,7 @@ setup(
     author_email='aristide.niyungeko@gmail.com',
     url='https://github.com/aristiden7o/flake8-regex',
     license='GNU General Public License v2 (GPLv2)',
+    install_requires=["flake8", "pycodestyle"],
     py_modules=['flake8_regex'],
     zip_safe=False,
     entry_points={
